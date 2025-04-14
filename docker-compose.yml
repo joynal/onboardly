@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  onboardly-db:
+    image: postgres:latest
+    container_name: onboardly-db
+    environment:
+      - POSTGRES_DB=onboardly
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - '5432:5432'
+    networks:
+      - onboardly-network
+
+networks:
+  onboardly-network:
+    driver: bridge

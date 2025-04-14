@@ -1,0 +1,66 @@
+[
+    {
+        "planId": "basic",
+        "name": "Basic Plan",
+        "description": "Basic subscription plan with limited features.",
+        "price": 9.99,
+        "currency": "USD",
+        "features": [
+            "Access to basic features",
+            "Email support"
+        ],
+        "billingCycle": {
+            "interval": "month",
+            "duration": 1
+        }
+    },
+    {
+        "planId": "premium",
+        "name": "Premium Plan",
+        "description": "Premium subscription plan with additional features.",
+        "price": 19.99,
+        "currency": "USD",
+        "features": [
+            "Access to all features",
+            "Priority email support",
+            "Monthly webinars"
+        ],
+        "billingCycle": {
+            "interval": "month",
+            "duration": 1
+        }
+    },
+    {
+        "planId": "annual",
+        "name": "Annual Plan",
+        "description": "Annual subscription plan with a discount.",
+        "price": 99.99,
+        "currency": "USD",
+        "features": [
+            "Access to all features",
+            "Priority email support",
+            "Monthly webinars",
+            "Discounted rate"
+        ],
+        "billingCycle": {
+            "interval": "year",
+            "duration": 1
+        }
+    },
+    {
+        "planId": "enterprise",
+        "name": "Enterprise Plan",
+        "description": "Customizable enterprise subscription plan.",
+        "price": 499.99,
+        "currency": "USD",
+        "features": [
+            "Custom features",
+            "Dedicated account manager",
+            "24/7 support"
+        ],
+        "billingCycle": {
+            "interval": "year",
+            "duration": 1
+        }
+    }
+]

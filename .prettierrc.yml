@@ -1,0 +1,14 @@
+singleQuote: true
+trailingComma: 'all'
+useTabs: false
+printWidth: 120
+tabWidth: 4
+semi: true
+bracketSpacing: true
+arrowParens: 'always'
+overrides:
+    [
+        { files: '*.js', options: { tabWidth: 4 } },
+        { files: '*.ts', options: { tabWidth: 4 } },
+        { files: '*.scss', options: { tabWidth: 2 } },
+    ]

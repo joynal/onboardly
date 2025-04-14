@@ -1,0 +1,19 @@
+Subscription:
+- customer canceled subscription
+- trail start
+- trail end
+- annual plan
+- custom plan
+
+
+concerns:
+ - simplicity needs to be involve designer
+ - no specification and problem for existing API
+ - what sort of payment failure
+ - what mobile optimization to do with REST API
+
+
+Skipped:
+- Auditing
+- Monitoring
+- Deployment pipeline (CI/CD)
